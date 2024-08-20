@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 9033612686946197709}
   - component: {fileID: 7944956029215064696}
   - component: {fileID: -2295794241330076729}
+  - component: {fileID: 5101468047543541529}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -256,3 +257,17 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 0
+--- !u!114 &5101468047543541529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3733708683047550662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9852291216e3dd247a5b8997dba4eedd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPosition: {fileID: 4643246554671332573, guid: 4ad6f89a3357d714b8c0a5e41bdf269b, type: 3}
+  endPosition: {fileID: 5528585307698341400, guid: 145f4e2b84c923248812be6ae2701ea5, type: 3}
