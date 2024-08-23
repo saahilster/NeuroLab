@@ -26,10 +26,11 @@ public class Point3DScript : MonoBehaviour
     public void ChangeColor()
     {
         sphereRenderer.material.color = new Color(Random.value, Random.value, Random.value);
+        Debug.Log("Poke detected");
     }
 
-    public void SpawnPOI()
+    public void DebugExit()
     {
-
+        Debug.Log("Poke Exitted");
     }
 }

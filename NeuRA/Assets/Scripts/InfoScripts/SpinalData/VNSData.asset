@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbee56f62f08b4b4f980941e5936c3d8, type: 3}
-  m_Name: LumbarData
+  m_Name: VNSData
   m_EditorClassIdentifier: 
   name: 
   subName: 
+  parentObject: {fileID: 0}
+  childObject: {fileID: 0}
   description: 
   PatientID: 0

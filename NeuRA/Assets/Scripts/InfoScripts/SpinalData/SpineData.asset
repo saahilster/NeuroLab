@@ -14,5 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Spine
   subName: 
-  description: 
+  description: ' The spine, or vertebral column, is a vital structure composed of
+    33 vertebrae, divided into cervical, thoracic, lumbar, sacral, and coccygeal
+    regions. It provides essential structural support, enabling an upright posture
+    and bearing the body''s weight. The spine also protects the spinal cord, a crucial
+    part of the nervous system, while allowing flexibility for movements like bending
+    and twisting. Intervertebral discs cushion the vertebrae, absorbing shocks from
+    physical activities. Additionally, the spine serves as an attachment point for
+    muscles and ligaments, stabilizing and controlling movement. Maintaining spine
+    health is essential for mobility, pain prevention, and overall well-being.'
   PatientID: 0

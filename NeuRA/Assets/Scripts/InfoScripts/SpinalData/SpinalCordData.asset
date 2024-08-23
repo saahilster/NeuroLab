@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbee56f62f08b4b4f980941e5936c3d8, type: 3}
-  m_Name: ThoracicData
+  m_Name: SpinalCordData
   m_EditorClassIdentifier: 
-  name: 
+  name: Spinal Cord
   subName: 
+  parentObject: {fileID: 5639535646498149881, guid: da4cab758a6ff384bb563cbc7ddf9dbd, type: 3}
+  childObject: {fileID: 0}
   description: 
   PatientID: 0
