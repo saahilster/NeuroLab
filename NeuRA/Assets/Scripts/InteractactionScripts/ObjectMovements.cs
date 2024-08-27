@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ObjectMovements : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class ObjectMovements : MonoBehaviour
     [SerializeField] TextMeshProUGUI subjectName;
     [SerializeField] TextMeshProUGUI descriptionHeader;
     [SerializeField] TextMeshProUGUI description;
+    [SerializeField] Image mriImage;
 
     private void Update()
     {
@@ -47,6 +49,7 @@ public class ObjectMovements : MonoBehaviour
     {
         info = GetObjectInfo();
 
+        mriImage.sprite = info.SourceSprite;
         subjectName.text = info.name;
         descriptionHeader.text = info.description;
         description.text = info.description;

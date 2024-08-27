@@ -16,5 +16,15 @@ MonoBehaviour:
   subName: 
   parentObject: {fileID: 5639535646498149881, guid: da4cab758a6ff384bb563cbc7ddf9dbd, type: 3}
   childObject: {fileID: 0}
-  description: 
+  description: The spinal cord is a long, cylindrical bundle of nerve fibers and
+    associated tissue enclosed in the spine, extending from the brainstem down to
+    the lower back. It serves as the main pathway for transmitting signals between
+    the brain and the rest of the body, facilitating communication for motor and
+    sensory functions. The spinal cord is protected by the vertebral column and surrounded
+    by cerebrospinal fluid, which cushions it from injury. It is composed of both
+    gray matter, which contains neuron cell bodies, and white matter, which consists
+    of myelinated axons that conduct nerve impulses. Damage to the spinal cord can
+    result in loss of sensation, movement, or autonomic function below the site of
+    injury, depending on its severity and location.
   PatientID: 0
+  SourceSprite: {fileID: 21300000, guid: 972faa334590caf4f8eea8395cfab75c, type: 3}

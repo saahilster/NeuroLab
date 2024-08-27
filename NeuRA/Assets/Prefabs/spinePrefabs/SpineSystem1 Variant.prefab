@@ -582,6 +582,7 @@ MonoBehaviour:
   part: {fileID: 0}
   childObject: {fileID: 0}
   info: {fileID: 0}
-  subjectName: {fileID: 0}
-  descriptionHeader: {fileID: 0}
-  description: {fileID: 0}
+  subjectName: {fileID: 8298031797138541781, guid: 52583fa3a3594ef4db3595c945795cb4, type: 3}
+  descriptionHeader: {fileID: 911676787781264495, guid: 2b22f92b871b1474387606f6386a996a, type: 3}
+  description: {fileID: 7542722029650916262, guid: fa4e547a974a51244aa64c94caef682b, type: 3}
+  mriImage: {fileID: 4300167348850273668, guid: 76295190ae354474c9efc67aa401cd61, type: 3}

@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class CollisionInfoScript : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class CollisionInfoScript : MonoBehaviour
     [SerializeField] TextMeshProUGUI subjectName;
     [SerializeField] TextMeshProUGUI descriptionHeader;
     [SerializeField] TextMeshProUGUI description;
-
+    [SerializeField] Image currentImage;
     [SerializeField] GameObject objSelected;
     bool objectDetected;
     // Start is called before the first frame update
@@ -65,6 +66,7 @@ public class CollisionInfoScript : MonoBehaviour
         subjectName.text = "Nothing Selected";
         description.text = "Please select a body part to display description!";
         descriptionHeader.text = "Nothing Selected";
+        currentImage.sprite = null;
         if (objSelected != null)
         {
             Destroy(objSelected);
@@ -78,6 +80,7 @@ public class CollisionInfoScript : MonoBehaviour
             subjectName.text = itemInfo.name;
             description.text = itemInfo.description;
             descriptionHeader.text = itemInfo.name;
+            currentImage.sprite = itemInfo.SourceSprite;
         }
         else
         {

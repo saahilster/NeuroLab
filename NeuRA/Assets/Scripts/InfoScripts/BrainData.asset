@@ -12,7 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbee56f62f08b4b4f980941e5936c3d8, type: 3}
   m_Name: BrainData
   m_EditorClassIdentifier: 
-  name: 
-  subName: 
-  description: 
-  PatientID: 0
+  name: Brain
+  parentObject: {fileID: 0}
+  childObject: {fileID: 0}
+  description: "The brain is a complex organ that serves as the control center of
+    the nervous system, located within the skull. It consists of several parts, including
+    the cerebrum, cerebellum, and brainstem, each responsible for different functions
+    such as movement, sensation, thinking, and regulating vital processes like breathing
+    and heartbeat. The brain is composed of billions of neurons that communicate
+    through synapses, allowing for the processing and integration of information.
+    It is protected by the skull and surrounded by cerebrospinal fluid, which cushions
+    it against injury. The brain\u2019s structure and function are critical for all
+    aspects of human behavior, cognition, and emotion.         "
+  SourceSprite: {fileID: 0}
