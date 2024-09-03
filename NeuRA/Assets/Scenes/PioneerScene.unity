@@ -1735,7 +1735,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Previous
+  m_text: 'Leave
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e4a1eca34591a70469c5e4621bb49068, type: 2}
@@ -4230,7 +4232,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 428b9dc5a337e9e4db7636f04ee43c14, type: 2}
   patientArray:
   - {fileID: 11400000, guid: 6787cc0c06a11d344924d18dfc85a3c7, type: 2}
-  - {fileID: 11400000, guid: d183ebb8300ad4047af8e5856917db03, type: 2}
   Name: {fileID: 2049173353}
   Description: {fileID: 2124176612}
   photo: {fileID: 365849059}
@@ -4853,8 +4854,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 15.169998, y: 43.644997}
-  m_SizeDelta: {x: 60.34, y: 12.71}
+  m_AnchoredPosition: {x: 35, y: 43.647}
+  m_SizeDelta: {x: 100, y: 12.705}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2049173353
 MonoBehaviour:
@@ -5110,8 +5111,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 35, y: -6.3525}
-  m_SizeDelta: {x: 100, y: 87.295}
+  m_AnchoredPosition: {x: 35, y: -6.8775}
+  m_SizeDelta: {x: 100, y: 86.245}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2124176612
 MonoBehaviour:

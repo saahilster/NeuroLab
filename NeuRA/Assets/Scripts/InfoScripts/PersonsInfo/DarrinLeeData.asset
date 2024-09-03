@@ -12,6 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be05296afaf491146be188992f1fb33c, type: 3}
   m_Name: DarrinLeeData
   m_EditorClassIdentifier: 
-  personName: Doctor Darrin Lee
+  personName: Darrin Lee
   peronPhoto: {fileID: 21300000, guid: 3508718da2e6b534eba1de5ebfc860a9, type: 3}
-  personDescription: 2
+  personDescription: 'Specialties Intracranial Pressure Functional Neurosurgery Academic
+    Title Assistant Professor of Clinical Neurological Surgery  Dr. Lee is a nationally
+    and internationally recognized expert in stereotactic and functional neurosurgery
+    for the treatment of Parkinson''s disease, tremor, dystonia, epilepsy and pain.
+    He has an ardent clinical interest in developing treatments for cognitive and
+    psychiatric disorders, including deep brain stimulation for obsessive compulsive
+    disorder, depression, Alzheimer''s  '

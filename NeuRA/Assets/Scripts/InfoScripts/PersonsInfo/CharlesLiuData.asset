@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be05296afaf491146be188992f1fb33c, type: 3}
   m_Name: CharlesLiuData
   m_EditorClassIdentifier: 
-  personName: Doctor Charles
-  peronPhoto: {fileID: 21300000, guid: d4912e8ca93bc2e408240dca69a94e84, type: 3}
-  personDescription: 1
+  personName: Charles
+  peronPhoto: {fileID: 21300000, guid: 4cb1282641e558f47924914a0d84caf9, type: 3}
+  personDescription: 'Specialties Neurosurgery Spine Surgery Academic Title Professor
+    of Neurosurgery  considered one of the pioneers in minimally invasive surgical
+    techniques for spine. He provides a key leadership role in the development of
+    the leading multidisciplinary academic spine program on the West Coast through
+    close collaborations with the Department of Orthopaedic Surgery. '

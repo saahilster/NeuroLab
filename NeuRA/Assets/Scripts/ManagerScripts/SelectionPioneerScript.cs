@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -16,6 +17,12 @@ public class SelectionPioneerScript : MonoBehaviour
     bool doctorSelected = true;
     int currentID;
 
+    IEnumerator PrintCooldown()
+    {
+        yield return new WaitForSeconds(1);
+        Debug.Log(currentArray.Length);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,16 +32,25 @@ public class SelectionPioneerScript : MonoBehaviour
     void Update()
     {
         UpdatePersonInfo();
-        ArrayCap();
+        // StartCoroutine(PrintCooldown());
     }
 
     public void NextPerson()
     {
-        currentID++;
+        if (currentID >= currentArray.Length + 1)
+        {
+            currentID = 0;
+        }
+        else { currentID++; }
+
     }
     public void PrevPerson()
     {
-        currentID--;
+        if (currentID <= -1)
+        {
+            currentID = 0;
+        }
+        else { currentID--; }
     }
     public void ToggleDoctor()
     {
@@ -46,28 +62,24 @@ public class SelectionPioneerScript : MonoBehaviour
         currentArray = patientArray;
         currentID = 0;
     }
-    private void ArrayCap()
+
+    public void UpdatePersonInfo()
     {
         if (currentArray != null)
         {
-            if (currentID > currentArray.Length)
-            {
-                currentID = 0;
-            }
-            else if (currentID < 0)
-            {
-                currentID = currentArray.Length - 1;
-            }
-        }
-    }
-    public void UpdatePersonInfo()
-    {
-        PersonInfoScript currentPerson;
+            PersonInfoScript currentPerson;
 
-        currentPerson = currentArray[currentID];
-        //change UI
-        Name.text = currentPerson.personName;
-        Description.text = currentPerson.personDescription;
-        photo.sprite = currentPerson.peronPhoto;
+            currentPerson = currentArray[currentID];
+
+            if (currentPerson != null)
+            {
+                //change UI
+                Name.text = currentPerson.personName;
+                Description.text = currentPerson.personDescription;
+                photo.sprite = currentPerson.peronPhoto;
+            }
+            else { Debug.Log("Current Person Null"); }
+        }
+        else { Debug.Log("Current Array null"); }
     }
 }
