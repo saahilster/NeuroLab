@@ -11,4 +11,5 @@ public class SubjectInfo : ScriptableObject
     public GameObject childObject;
     public string description;
     public Sprite SourceSprite;
+    public string caption;
 }

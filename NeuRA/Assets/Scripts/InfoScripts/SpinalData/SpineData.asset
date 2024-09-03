@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: SpineData
   m_EditorClassIdentifier: 
   name: Spine
-  subName: 
   parentObject: {fileID: 0}
   childObject: {fileID: 0}
   description: ' The spine, or vertebral column, is a vital structure composed of
@@ -25,5 +24,5 @@ MonoBehaviour:
     physical activities. Additionally, the spine serves as an attachment point for
     muscles and ligaments, stabilizing and controlling movement. Maintaining spine
     health is essential for mobility, pain prevention, and overall well-being.'
-  PatientID: 0
   SourceSprite: {fileID: 21300000, guid: a68c901758ac58345a2dd0f566b32307, type: 3}
+  caption: This picture depicts the spine via x-ray!

@@ -16,13 +16,16 @@ public class CollisionInfoScript : MonoBehaviour
     [SerializeField] TextMeshProUGUI subjectName;
     [SerializeField] TextMeshProUGUI descriptionHeader;
     [SerializeField] TextMeshProUGUI description;
+    [SerializeField] TextMeshProUGUI captionText;
     [SerializeField] Image currentImage;
+    [SerializeField] Sprite defaultSprite;
     [SerializeField] GameObject objSelected;
     bool objectDetected;
     // Start is called before the first frame update
     void Start()
     {
         objectDetected = false;
+        currentImage.sprite = defaultSprite;
     }
 
     // Update is called once per frame
@@ -66,7 +69,8 @@ public class CollisionInfoScript : MonoBehaviour
         subjectName.text = "Nothing Selected";
         description.text = "Please select a body part to display description!";
         descriptionHeader.text = "Nothing Selected";
-        currentImage.sprite = null;
+        currentImage.sprite = defaultSprite;
+        captionText.text = "Nothing Displayed";
         if (objSelected != null)
         {
             Destroy(objSelected);
@@ -81,6 +85,7 @@ public class CollisionInfoScript : MonoBehaviour
             description.text = itemInfo.description;
             descriptionHeader.text = itemInfo.name;
             currentImage.sprite = itemInfo.SourceSprite;
+            captionText.text = itemInfo.caption;
         }
         else
         {

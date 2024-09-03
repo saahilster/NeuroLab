@@ -24,4 +24,5 @@ MonoBehaviour:
     It is protected by the skull and surrounded by cerebrospinal fluid, which cushions
     it against injury. The brain\u2019s structure and function are critical for all
     aspects of human behavior, cognition, and emotion.         "
-  SourceSprite: {fileID: 0}
+  SourceSprite: {fileID: 21300000, guid: 7181b6a5cbc6e0a48ab5d238f1a741e6, type: 3}
+  caption: Here is a lateral view of the Brain. This was captured with an MRI

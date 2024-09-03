@@ -12,9 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbee56f62f08b4b4f980941e5936c3d8, type: 3}
   m_Name: VNSData
   m_EditorClassIdentifier: 
-  name: 
-  subName: 
+  name: VNS
   parentObject: {fileID: 0}
   childObject: {fileID: 0}
-  description: 
-  PatientID: 0
+  description: ' A vagus nerve stimulator (VNS) is a medical device implanted under
+    the skin, typically in the chest, with a wire that connects to the vagus nerve
+    in the neck. It sends electrical impulses to the vagus nerve, which in turn affects
+    brain activity. The primary use of VNS is to help control seizures in people
+    with epilepsy that do not respond well to medication. It can also be used to
+    treat depression in individuals who have not found relief through standard treatments.
+    By modulating the vagus nerve, VNS can help stabilize mood and reduce seizure
+    frequency and intensity.'
+  SourceSprite: {fileID: 21300000, guid: 7150ef68f2532f24e80e4afeea4613d5, type: 3}
+  caption: Depicted above, this is the vagus nerve stimulator developed by Sentiva.
