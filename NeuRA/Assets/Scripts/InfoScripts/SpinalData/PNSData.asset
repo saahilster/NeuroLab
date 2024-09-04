@@ -24,4 +24,4 @@ MonoBehaviour:
     functions like heart rate and digestion. The PNS plays a crucial role in coordinating
     bodily functions and responding to external stimuli.
   SourceSprite: {fileID: 21300000, guid: 877df344d5a946e4f858a0f8a7e1cf80, type: 3}
-  caption: MRI Imagiing of the peripheral nervous system
+  caption: MRI Imaging of the peripheral nervous system

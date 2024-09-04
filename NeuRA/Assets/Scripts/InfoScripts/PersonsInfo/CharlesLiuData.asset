@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be05296afaf491146be188992f1fb33c, type: 3}
   m_Name: CharlesLiuData
   m_EditorClassIdentifier: 
-  personName: Charles
+  personName: Dr. Charles Liu
   peronPhoto: {fileID: 21300000, guid: 4cb1282641e558f47924914a0d84caf9, type: 3}
   personDescription: 'Specialties Neurosurgery Spine Surgery Academic Title Professor
     of Neurosurgery  considered one of the pioneers in minimally invasive surgical
