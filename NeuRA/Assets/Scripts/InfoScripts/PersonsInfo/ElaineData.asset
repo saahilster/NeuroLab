@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ElaineData
   m_EditorClassIdentifier: 
   personName: Elaine
-  peronPhoto: {fileID: 21300000, guid: cf792bd457df0c54b80832ca6a2726d4, type: 3}
+  peronPhoto: {fileID: 21300000, guid: cc2a2445e958b3a4693a0d347a45f6e5, type: 3}
   personDescription: "In July 2016, Elaine started having a stroke which led up to
     difficulty walking. She had been taken into the Rehabilitation center for intensive
     therapy (for 14 days). In August 2018, she underwent a surgical procedure to
